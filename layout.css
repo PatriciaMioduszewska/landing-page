@@ -26,6 +26,11 @@ body {
     margin-left: auto;
     padding: 0px 100px 0px 0px;  
 }
+.header-logo img {
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
 
 .header-link a {
     text-decoration: none;
@@ -75,7 +80,7 @@ h1 {
     background: #F0A160;
     padding: 10px;
     border-radius: 8px;
-    color: black;
+    color: #F0CCB0;
     font-family: 'papyrus';
     text-decoration: none;
     font-weight: bold;
@@ -84,6 +89,7 @@ h1 {
 .hero-image img {
     width: 500px;
     height: 350px;
+    border-radius: 15px;
 }
 /* Content Part */
 
@@ -131,4 +137,50 @@ h1 {
     font-size: 22px;
     font-family: 'papyrus';
     text-align: right;
+}
+/* Sign-Up Part */
+
+.sign-up{
+background-color: #F0A160;
+margin: 60px 300px 60px 300px;
+border: 2px #F0A160;
+border-radius: 15px;
+padding: 10px 80px;
+margin: 50px 350px;
+display: flex;
+align-items: center;
+}
+.signs-button button{
+text-align: center;
+padding: 5px 15px;
+background-color:aliceblue;
+border-radius: 5px;
+border-color: beige;
+border-radius: 20px;
+font-family: 'papyrus'; color:#F54D3D; size: 15px;
+font-size: 15px;
+}
+.sign-item {
+flex:1px;
+}
+.signs-text {
+text-align: left;
+}
+h3 {
+color: white;
+font-family: 'papyrus';
+padding: 5px;
+margin: 30px 0px 0px 50px;  
+}
+.signs-text p {
+    color:white;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+/* Footer */
+.footer {
+    background-color: #F54D3D;
+    color: #fff;
+    font-family: 'papyrus';
 }
